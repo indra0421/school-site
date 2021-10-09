@@ -305,6 +305,7 @@
     width: 99%;
     top: 1197px;
     background-color: black;
+    display: flex;
 }
 
 .center {
@@ -323,14 +324,13 @@
     padding-left: 96px;
     height: 113px;
     font-size: 19px;
-    position: absolute;
-    top: 50px;
 }
 
 .left6 {
     border-right: 6px solid white;
     width: 49%;
     height: 250px;
+    padding-top: 40px;
 }
 
 .img1 img {
@@ -338,8 +338,29 @@
     width: 45%;
 }
 
-.img1 {
+/* .img1 {
     position: absolute;
     left: 800px;
     top: 23px;
+} */
+.img1 {
+    background: url("../img/globe.jpg");
+    background-size: cover;
+    background-position: center 80%;
+    height: 245px;
+    width: 50%;
+}
+@media screen and (max-width: 600px) {
+    .container6 {
+        flex-direction: column;
+        height: 500px;
+    }
+    .container6 .left6,
+    .container6 .img1 {
+        width: 100%;
+    }
+    .left6 {
+        border-right: 0px;
+        border-bottom: 5px solid white;
+    }
 }
