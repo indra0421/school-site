@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .header {
     border-bottom: 3px solid rgb(255, 255, 255);
@@ -131,7 +132,7 @@
     height: 218px;
     width: 99%;
     position: absolute;
-    top: 489px;
+    top: 550px;
 }
 
 .left3 {
@@ -198,7 +199,7 @@
     width: 99%;
     height: 218px;
     position: absolute;
-    top: 707px;
+    top: 800px;
     background-color: black;
 }
 
@@ -268,7 +269,7 @@
 .container5 {
     border-top: 5px solid rgb(204, 192, 192);
     position: absolute;
-    top: 931px;
+    top: 1020px;
     height: 229px;
     width: 99%;
 
@@ -303,7 +304,7 @@
     position: absolute;
     height: 250px;
     width: 99%;
-    top: 1197px;
+    top: 1300px;
     background-color: black;
     display: flex;
 }
